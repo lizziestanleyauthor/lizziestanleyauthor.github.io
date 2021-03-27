@@ -286,7 +286,7 @@ img {
 }
 #body.home div.body div div p a {
 	color: #7a6666;
-	display: block;
+	/* display: block; */
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
 	font-weight: normal;
