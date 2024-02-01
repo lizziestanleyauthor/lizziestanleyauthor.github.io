@@ -1,0 +1,49 @@
+footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 41px;
+    width: 100%;
+    display: flex;
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    gap: 20px;
+}
+
+footer nav a {
+    background: url(../images/social.png) no-repeat;
+	width: 33px;
+	height: 33px;
+	padding: 0;
+	text-indent: -99999px;
+    opacity: .8;
+}
+footer nav a:hover,
+footer nav a:focus {
+    opacity: 1;     
+}
+footer nav a.bookbub {
+	background-position-x: 0;
+}
+footer nav a.facebook {
+	background-position-x: -33px;
+}
+footer nav a.instagram {
+	background-position-x: -66px;
+}
+footer nav a.goodreads {
+	background-position-x: -99px;
+}
+footer nav a.twitter {
+	background-position-x: -132px;
+}
+footer nav a.tiktok {
+	background-position-x: -165px;
+}
+footer nav a.threads {
+	background-position-x: -198px;
+}

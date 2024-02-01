@@ -1,0 +1,77 @@
+@import url(fonts.css);
+
+@import url(header.css);
+@import url(section.css);
+@import url(footer.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+img {
+	border: none;
+}
+
+:root {
+    --content-max-width: 1120px;
+}
+
+body::before {
+    content: '';
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    opacity: .05;
+    inset: 0;
+    position: fixed;
+    z-index: -999;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns:
+        [full-width-start] 
+        minmax(0, 1fr)
+        [content-start content-left-start]
+        minmax(0, calc(var(--content-max-width) / 2))
+        [content-left-end content-right-start]
+        minmax(0, calc(var(--content-max-width) / 2))
+        [content-right-end content-end]
+        minmax(0, 1fr)
+        [full-width-end];
+    gap: 2rem;
+}
+
+.content-grid > * {
+    grid-column: content;
+}
+
+main {
+    padding-top: 132px;
+    padding-bottom: calc(41px + 2rem);
+
+    font-family: roboto-regular-webfont;
+    font-size: 16px;
+}
+
+main.jumbo {
+    padding-top: 112px;
+}
+
+h1 {
+    font-family: magra-bold-webfont;
+    margin-bottom: 0.5em;
+}
+h2 {
+    font-family: magra-bold-webfont;
+    margin-bottom: 0.1em;
+    translate: 0 -0.6em;
+}
