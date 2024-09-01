@@ -141,13 +141,13 @@ main img {
 .content-warnings {
     padding-inline: 5rem;
 }
-details span.hide {
+details > summary > span.hide {
     display: none;
 }
-details[open] span.show {
+details[open] > summary > span.show {
     display: none;
 }
-details[open] span.hide {
+details[open] > summary > span.hide {
     display: unset;
 }
 details > summary {
@@ -163,11 +163,10 @@ details > div {
     border-width: 0 1px 1px;
     padding: 1rem;
     background-color: whitesmoke;
+    font-size: 0.9rem;
 }
 details p {
     margin-bottom: 0.3em;
-    /* font-size: 1.1rem; */
-    font-size: clamp(0.9rem, 1.5vw, 1.1rem);
     font-style: italic;
 }
 details ul {
