@@ -1,6 +1,6 @@
 body > header {
     position: fixed;
-    background-color: white;
+    background-color: black;
     width: 100%;
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, var(--content-max-width)) minmax(0, 1fr);
@@ -27,12 +27,12 @@ body > header span {
     color: #CC0000;
 }
 body > header nav a {
-    color: black;
+    color: white;
     opacity: .8;
 }
 body > header nav a:hover,
 body > header nav a:focus-visible {
-    text-shadow: #CC0000 1px 1px 5px;
+    text-shadow: #f695ff 1px 1px 10px;
     opacity: 1;
 }
 

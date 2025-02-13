@@ -1,5 +1,5 @@
 footer {
-    background-color: black;
+    background-color: #FA6B8C;
     position: fixed;
     bottom: 0;
     height: 41px;
@@ -15,7 +15,7 @@ footer nav {
 }
 
 footer nav a {
-    background: url(../images/social.png) no-repeat;
+    background: url(../images/social_black.png) no-repeat;
 	width: 33px;
 	height: 33px;
 	padding: 0;

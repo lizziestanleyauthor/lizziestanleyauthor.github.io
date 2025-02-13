@@ -14,7 +14,7 @@ section.books {
     grid-template-columns: repeat(3, 1fr);
 }
 section.books a {
-    color: black;
+    color: #f695ff;
 }
 card.book {
     display: flex;
@@ -88,14 +88,15 @@ main img {
 
 .quick-links {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    justify-content: center;
 }
 :where(.buybutton, .quick-links) a {
-    border: solid 1px #222;
+    border: solid 1px #c746d3;
     padding: 7px;
     text-align: center;
-    color: black;
+    color: #f695ff;
     font-family: lato-bold-webfont;
 }
 .buybutton a {
@@ -103,7 +104,7 @@ main img {
 }
 :where(.buybutton, .quick-links) a:hover,
 :where(.buybutton, .quick-links) a:focus-visible {
-    text-shadow: #CC0000 1px 1px 5px;
+    text-shadow: 1px 1px 10px white;
 }
 .quick-links a:not(:first-of-type) {
     margin-left: 0.5rem;
@@ -113,11 +114,11 @@ main img {
 }
 
 .email {
-    color: black;
+    color: #f695ff;
 }
 .email:hover,
 .email:focus-visible {
-    text-shadow: #CC0000 1px 1px 5px;
+    text-shadow: 0px 0px 10px white;
 }
 
 @media (max-width: 1000px) {
@@ -151,18 +152,18 @@ details[open] > summary > span.hide {
     display: unset;
 }
 details > summary {
-    border: solid 1px #222;
+    border: solid 1px #CCC;
     padding: 7px;
     text-align: center;
-    color: black;
+    color: #f695ff;
     font-family: lato-bold-webfont;
     list-style: none;
 }
 details > div {
-    border: solid #333333;
+    border: solid #CCCCCC;
     border-width: 0 1px 1px;
     padding: 1rem;
-    background-color: whitesmoke;
+    background-color: #222;
     font-size: 0.9rem;
 }
 details p {

@@ -23,7 +23,7 @@ img {
     --content-max-width: 1120px;
 }
 
-body::before {
+/* body::before {
     content: '';
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
@@ -33,6 +33,11 @@ body::before {
     inset: 0;
     position: fixed;
     z-index: -999;
+} */
+
+body {
+	background-color: #000;
+	color: white;
 }
 
 .content-grid {
