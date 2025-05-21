@@ -20,7 +20,11 @@ body > header nav {
     gap: 25px;
     align-items: center;
     text-align: center;
-    font-family: lato-bold-webfont;
+    /* font-family: lato-bold-webfont; */
+    font-family: special-elite;
+    font-size: 1.1em;
+    letter-spacing: 1.5px;
+    font-weight: bold;
 }
 
 body > header span {
